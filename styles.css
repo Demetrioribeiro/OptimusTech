@@ -1,0 +1,150 @@
+@import url(/imagens/header.css);
+@import url(/imagens/introducao.css);
+@import url(/imagens/rodape.css);
+
+:root {
+    --fonte-principal: "Inter";
+    --cor-texto: #667085;
+    --cor-vinho: #8e2424;
+    --cinza-escuro: #101828;
+}
+
+body {
+    background-color: white;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 6rem 0rem;
+}
+
+.vagas_abertas{
+    color: var(--cor-vinho);
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    font-size: 14px;
+    border-radius: 2rem;
+    background: rgba(142, 36, 36, 0.05);
+}
+.vagas_titulo {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 36px;
+    align-self: stretch;
+    text-align: center;
+}
+.vagas_texto {
+    color: var(--cor-texto);
+    font-size: 20px;
+    line-height: 1.875rem;
+    margin-bottom: 3em;
+
+}
+
+.layout {
+    display: flex;
+    width: 80rem;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 6rem;
+}
+
+.vaga {
+    display: flex;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 55%;
+    align-self: stretch;
+    border-radius: 1rem;
+    border: 1px solid var(--gray-200, #EAECF0);
+    background: var(--base-white, #FFF);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+}
+.area_de-atuacao {
+    margin-left: 17rem;
+    gap: 2rem;
+    align-self: stretch;
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 20px;    
+}
+
+.titulo_vaga {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+    color: var(--cor-texto);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.painel {
+    display: flex;
+    padding: 4rem 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+    border-radius: 1rem;
+    background: rgba(195, 25, 25, 0.03);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+    width: 85%;
+}
+
+.painel_final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.painel_destaque {
+    color: var(--cor-vinho);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.painel_titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    text-align: center;
+}
+.avatar_titulo {
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.painel_texto {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-texto);
+}
+
